@@ -1,0 +1,8 @@
+#!/bin/bash
+tmux new-session -d -s music 'cmus'
+tmux set-option -t music status off
+tmux split-window -h -p 50 'cava'
+tmux split-window -v -p 50 'htop'
+tmux select-pane -t 0
+tmux attach-session -t music
+
