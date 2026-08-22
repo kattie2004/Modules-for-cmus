@@ -9,8 +9,7 @@ before use install pkgs:
 4. htop
 
 # Usage:
-for open script run "./cm"
-for close run "tmux kill-server"
+for open script run "./cm", and for close script run "tmux kill-server"
 
 # Better exp:
 for better experience add alias for your .zshrc OR .bashrc in bottom:
